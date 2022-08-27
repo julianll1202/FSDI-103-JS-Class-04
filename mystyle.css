@@ -1,6 +1,10 @@
 *{
     font-family: verdana;
-    border: none
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
 }
 
 body{
@@ -9,6 +13,62 @@ body{
     text-align: center;
 }
 
+
+/*Header*/
 header{
     background-color: #A4161A;
+    padding: 20px;
+    color: #F5F3F4;
+}
+header h1{
+    font-size: 40px;
+}
+
+.input-bar{
+    margin: 10px;
+}
+
+header input{
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+header button{
+    background-color: #D3D3D3;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+/*Main*/
+main{
+    background-color: #F5F3F4;
+}
+
+main ul{
+    margin: 20px;
+    list-style: none;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #D3D3D3;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border-left: 4px solid #A4161A;
+}
+
+main button{
+    background-color: #A4161A;
+    color: #F5F3F4;
+    width: 20%;
+    height: 20px;
+    border-radius: 5px;
+    font-weight: bold;
 }
