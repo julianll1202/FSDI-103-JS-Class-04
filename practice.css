@@ -1,0 +1,9 @@
+*{
+    font-family: verdana, sans-serif;
+}
+
+li.item{
+    background-color: aliceblue;
+    padding: 3px;
+    font-family: arial;
+}
